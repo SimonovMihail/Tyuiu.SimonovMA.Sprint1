@@ -26,8 +26,7 @@ namespace Tyuiu.SimonovMA.Sprint1.Task0.V26
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.Calculate());
-
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
