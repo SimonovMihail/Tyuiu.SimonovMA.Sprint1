@@ -2,7 +2,7 @@
 
 namespace Tyuiu.SimonovMA.Sprint1.Task0.V26.Lib
 {
-    public class DataService : ISprint1Task0V0
+    public class DataService : ISprint1Task0V26
     {
         public double Calculate()
         {
