@@ -7,7 +7,7 @@ namespace Tyuiu.SimonovMA.Sprint1.Task3.V1.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            return Math.Round(r * h, 3);
+            return Math.Round(Math.PI * Math.Pow(r, 2) * h, 3);
         }
     }
 }

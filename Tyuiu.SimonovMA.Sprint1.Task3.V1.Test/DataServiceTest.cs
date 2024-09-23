@@ -11,11 +11,11 @@ namespace Tyuiu.SimonovMA.Sprint1.Task3.V1.Test
         {
             DataService ds = new DataService();
 
-            double r = 10;
+            double r = 1;
             double h = 2;
 
             double res = ds.CylinderVolume(r, h);
-            Assert.AreEqual(20, res);
+            Assert.AreEqual(6.283, res);
         }
     }
 }
