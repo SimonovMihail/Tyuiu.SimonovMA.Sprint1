@@ -1,7 +1,7 @@
 ﻿using System;
-using Tyuiu.SimonovMA.Sprint1.Task4.V1.Lib;
+using Tyuiu.SimonovMA.Sprint1.Task5.V3.Lib;
 
-namespace Tyuiu.SimonovMA.Sprint1.Task4.V1
+namespace Tyuiu.SimonovMA.Sprint1.Task5.V3
 {
     internal class Program
     {
@@ -11,28 +11,27 @@ namespace Tyuiu.SimonovMA.Sprint1.Task4.V1
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Class Math                                                        *");
-            Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #1                                                              *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #3                                                              *");
             Console.WriteLine("* Выполнил: Симонов Михаил Алексеевич | РППб-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет результат по формуле и печатает результат на экране.          *");
+            Console.WriteLine("* Написать программу, которая присваивает целой переменной h третью от    *");
+            Console.WriteLine("* конца цифру в записи положительного целого числа k.                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x;
-
-            Console.WriteLine("Введите значение x:");
-            x = Convert.ToDouble(Console.ReadLine());
+            int k;
+            Console.WriteLine("Введите значение k:");
+            k = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x));
+            Console.WriteLine(ds.Calculate(k));
             Console.ReadKey();
         }
     }
