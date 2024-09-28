@@ -7,7 +7,24 @@ namespace Tyuiu.SimonovMA.Sprint1.Task6.V8.Lib
     {
         public string MoveLetterToEnd(string value)
         {
-            return value.Substring(1) + value[0];
+            string[] words = value.Split(' ');
+
+            string[] ModifiedWords = new string[words.Length];
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                string word = words[i];
+                if (word.Length > 1)
+                {
+                    ModifiedWords[i] = word.Substring(1) + word[0];
+                }
+                else
+                {
+                    ModifiedWords[i] = word;
+                }
+            }
+
+            return string.Join(" ", ModifiedWords);
         }
     }
 }
@@ -22,7 +39,7 @@ namespace Tyuiu.SimonovMA.Sprint1.Task6.V8.Lib
 
 //    string[] ModifiedWords = new string[words.Length];
 
-//    for(int i = 0; i < words.Length; i++)
+//    for (int i = 0; i < words.Length; i++)
 //    {
 //        string word = words[i];
 //        if (word.Length > 1)

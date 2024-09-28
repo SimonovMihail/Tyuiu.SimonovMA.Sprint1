@@ -10,9 +10,9 @@ namespace Tyuiu.SimonovMA.Sprint1.Task6.V8
             DataService ds = new DataService();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #3                                                              *");
+            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #8                                                              *");
             Console.WriteLine("* Выполнил: Симонов Михаил Алексеевич | РППб-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -23,7 +23,7 @@ namespace Tyuiu.SimonovMA.Sprint1.Task6.V8
             Console.WriteLine("***************************************************************************");
 
             string value;
-            Console.WriteLine("Введите слово:");
+            Console.WriteLine("Введите предложение (без знаков припинания):");
             value = Console.ReadLine();
 
             Console.WriteLine("***************************************************************************");

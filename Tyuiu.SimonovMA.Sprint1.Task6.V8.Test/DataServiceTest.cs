@@ -10,9 +10,9 @@ namespace Tyuiu.SimonovMA.Sprint1.Task6.V8.Test
         public void BeegTest()
         {
             DataService ds = new DataService();
-            string value = "города";
+            string value = "привет мир";
             string res = ds.MoveLetterToEnd(value);
-            Assert.AreEqual(res, "ородаг");
+            Assert.AreEqual(res, "риветп ирп");
         }
     }
 }
