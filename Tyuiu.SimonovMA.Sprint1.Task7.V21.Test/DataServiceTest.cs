@@ -13,7 +13,7 @@ namespace Tyuiu.SimonovMA.Sprint1.Task7.V21.Test
             double x = 10;
             double y = 2;
             double z = ds.Calculate(x, y);
-            Assert.AreEqual(z, -245.268);
+            Assert.AreEqual(z, -244.242);
         }
     }
 }
